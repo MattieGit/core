@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
+from tuya_device_handlers.device_wrapper.base import DeviceWrapper
 from tuya_device_handlers.device_wrapper.binary_sensor import DPCodeBitmapBitWrapper
 from tuya_device_handlers.device_wrapper.common import (
     DPCodeBooleanWrapper,
